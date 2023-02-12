@@ -10,7 +10,7 @@ class Scooter{
 
   rent() {
     if (this.charge > 20 && this.isBroken == false) {
-      this.user = username
+      console.log("confused what to enter into this function")
     }
   }
 }
