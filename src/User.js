@@ -7,7 +7,7 @@ class User {
   }
 
   login(password) {
-    if (password === this.password) {
+    if (password == this.password) {
       this.loggedIn = true;
       console.log("user has been logged in")
     } else {
